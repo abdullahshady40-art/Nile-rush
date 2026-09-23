@@ -1,0 +1,15 @@
+{
+  "name": "nile-rush",
+  "version": "1.0.0",
+  "description": "NILE RUSH — an original Egyptian-themed 3D endless runner for the browser (NileForge Engine, zero dependencies).",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node tools/serve.js",
+    "check": "node tools/check.js",
+    "build:sw": "node tools/build-sw.js",
+    "test": "node tools/check.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}

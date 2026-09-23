@@ -1,0 +1,21 @@
+{
+  "name": "NILE RUSH",
+  "short_name": "NILE RUSH",
+  "description": "An original Egyptian 3D endless runner. Run, jump, slide and collect coins along the Nile.",
+  "id": "./",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#070e26",
+  "theme_color": "#070e26",
+  "lang": "en",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [{ "name": "Play", "short_name": "Play", "url": "./?source=shortcut", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }]
+}
